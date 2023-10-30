@@ -8,7 +8,7 @@ node('AppServer')
 
   stage('Build and Tag')
   {
-    app = docker.build("jasonnaa/Node-JS-QR-Code-Generator")
+    app = docker.build("jasonnaa/node-js-qr-code-generator")
   }
 
   stage('Post-to-dockerhub')
