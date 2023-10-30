@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   realestate2:
-    image: 'jasonnaa/Node-JS-QR-Code-Generator:latest'
+    image: 'jasonnaa/node-js-qr-code-generator:latest'
     environment:
       - "PORT:3000"
     ports:
